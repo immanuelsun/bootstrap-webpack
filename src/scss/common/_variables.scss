@@ -15,12 +15,17 @@ $text: #7A8387;
 $grayDark: #495061;
 $grayDarker: #3D4351;
 $black: #3D4351;
+$overlay: #262B39;
 // Colors - fn-names
 $primary: $pink;
-$secondary: $dark;
+$secondary: $grayDark;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
 $light: $light;
 $dark: $grayDarker;
+// Colors: System setup
+$theme-colors: () !default;
+$theme-colors: map-merge(( "primary" : $primary, "secondary" : $secondary, "success" : $success, "info" : $info, "warning" : $warning, "danger" : $danger, "light" : $light, "dark" : $dark), $theme-colors);
+// stylelint-enable

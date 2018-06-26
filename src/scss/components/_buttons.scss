@@ -1,0 +1,8 @@
+.btn-sm {
+  padding: 3px 10px;
+
+}
+
+.btn {
+  @include border-radius(40px);
+}

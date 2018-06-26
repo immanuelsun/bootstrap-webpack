@@ -1,0 +1,13 @@
+.navbar-brand {
+  padding-bottom: .5rem;
+  margin-right: 5rem;
+}
+
+.nav-main {
+  border-bottom: 1px solid $grayDark;
+  .nav-item {
+    text-transform: uppercase;
+    font-weight: $light;
+    margin-right: 1rem;
+  }
+}

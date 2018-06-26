@@ -1,5 +1,18 @@
-.bg-hero {
+.hero {
     background: url('/public/images/bg-hero.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
+}
+
+.bg-hero {
+    background: rgba($overlay, 0.5);
+    height: 100vh;
+}
+
+.jumbotron {
+    background: none;
+
+    h1 {
+        color: $white;
+    }
 }

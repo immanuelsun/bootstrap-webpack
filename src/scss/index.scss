@@ -1,6 +1,11 @@
-@import '../../node_modules/bootstrap/scss/bootstrap';
 // Common
 @import 'common/variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+// // Common
+// @import 'common/variables';
 @import 'common/typography';
+// Components
+@import 'components/navbar';
+@import 'components/buttons';
 // Layouts
 @import 'layouts/hero';

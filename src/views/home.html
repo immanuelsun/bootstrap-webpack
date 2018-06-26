@@ -10,37 +10,182 @@
 
     <body>
         <header class="hero">
+            <!-- Main Nav -->
             <div class="container-fluid bg-hero">
                 <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Navbar w/ text</a>
+                    <nav class="navbar nav-main navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="#">
+                            <img src="/public/images/logo.png" alt="Senda">
+                        </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home
+                                    <a class="nav-link" href="#">Features
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
+                                    <a class="nav-link" href="#">Assets</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Download</a>
                                 </li>
                             </ul>
-                            <span class="navbar-text">
-                                Navbar text with an inline element
-                            </span>
+                            <ul class="navbar-nav ml-auto">
+
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">
+                                        <button class="btn btn-sm btn-outline-light">Login</button>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">
+                                        <button class="btn btn-sm btn-outline-light">Download</button>
+                                    </a>
+                                </li>
+
+                            </ul>
                         </div>
                     </nav>
                 </div>
                 <!-- /.container -->
+
+                <!-- jumbotron -->
+                <div class="container jumbotron mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mt-5 text-center">
+                            <h1 class="jumbotron-heading mt-5">Design, collaborate, win.</h1>
+                            <!-- /.jumbotron-heading -->
+                            <p class="lead text-light">
+                                Introducing “Sedna”. A responsive one page website, designed & developed by Peter Finlan, exclusively for Codrops.
+                            </p>
+                            <!-- /.lead text-muted -->
+                            <a href="#" class="btn btn-lg btn-primary">Download for free</a>
+                            <!-- /.btn btn-lg btn-primary -->
+                            <a href="#" class="btn btn-lg btn-outline-primary">Download for free</a>
+                            <!-- /.btn btn-lg btn-outline-primary -->
+                        </div>
+                        <!-- /.col-md-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.containter -->
             </div>
             <!-- /.container-fluid -->
         </header>
+
+        <div class="container">
+            <hr>
+            <!-- Headings -->
+            <h1>h1. Bootstrap heading</h1>
+            <h2>h2. Bootstrap heading</h2>
+            <h3>h3. Bootstrap heading</h3>
+            <h4>h4. Bootstrap heading</h4>
+            <h5>h5. Bootstrap heading</h5>
+            <h6>h6. Bootstrap heading</h6>
+            <hr>
+            <!-- Heading - classes -->
+            <p class="h1">h1. Bootstrap heading</p>
+            <p class="h2">h2. Bootstrap heading</p>
+            <p class="h3">h3. Bootstrap heading</p>
+            <p class="h4">h4. Bootstrap heading</p>
+            <p class="h5">h5. Bootstrap heading</p>
+            <p class="h6">h6. Bootstrap heading</p>
+            <hr>
+            <!-- Headings - Fancy Display -->
+            <h3>
+                Fancy display heading
+                <small class="text-muted">With faded secondary text</small>
+            </h3>
+            <hr>
+            <!-- Headings: Display headings -->
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+            <hr>
+            <!-- Bloockquote -->
+            <blockquote class="blockquote">
+
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+
+                <footer class="blockquote-footer">Someone famous in
+                    <cite title="Source Title">Source Title</cite>
+                </footer>
+            </blockquote>
+            <hr>
+            <!-- Lists -->
+            <ul class="list-unstyled">
+
+                <li>Lorem ipsum dolor sit amet</li>
+
+                <li>Consectetur adipiscing elit</li>
+
+                <li>Integer molestie lorem at massa</li>
+
+                <li>Facilisis in pretium nisl aliquet</li>
+
+                <li>Nulla volutpat aliquam velit
+
+                    <ul>
+
+                        <li>Phasellus iaculis neque</li>
+
+                        <li>Purus sodales ultricies</li>
+
+                        <li>Vestibulum laoreet porttitor sem</li>
+
+                        <li>Ac tristique libero volutpat at</li>
+
+                    </ul>
+                </li>
+
+                <li>Faucibus porta lacus fringilla vel</li>
+
+                <li>Aenean sit amet erat nunc</li>
+
+                <li>Eget porttitor lorem</li>
+
+            </ul>
+            <hr>
+            <!-- Description list alignment -->
+            <dl class="row">
+                <dt class="col-sm-3">Description lists</dt>
+                <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                <dt class="col-sm-3">Euismod</dt>
+                <dd class="col-sm-9">
+
+                    <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+
+                    <p>Donec id elit non mi porta gravida at eget metus.</p>
+                </dd>
+
+                <dt class="col-sm-3">Malesuada porta</dt>
+                <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+
+                <dt class="col-sm-3">Nesting</dt>
+                <dd class="col-sm-9">
+                    <dl class="row">
+                        <dt class="col-sm-4">Nested definition list</dt>
+                        <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+                    </dl>
+                </dd>
+            </dl>
+            <hr>
+            <!-- Responsive typography -->
+        </div>
+        <!-- /.container -->
     </body>
 
 </html>

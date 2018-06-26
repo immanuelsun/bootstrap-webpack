@@ -1,4 +1,4 @@
-# Boostrap + Webpack + JQuery Boilerplate
+# Boostrap 4 + Webpack 4
 
 > Build landing page with **Boostrap** and **jQuery** is so easy.
 
