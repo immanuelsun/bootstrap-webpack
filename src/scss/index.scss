@@ -4,8 +4,10 @@
 // // Common
 // @import 'common/variables';
 @import 'common/typography';
+@import 'common/global';
 // Components
 @import 'components/navbar';
 @import 'components/buttons';
 // Layouts
 @import 'layouts/hero';
+@import 'layouts/assets';
