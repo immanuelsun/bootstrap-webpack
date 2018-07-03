@@ -1,3 +1,7 @@
-// .bg-light {
-//   background: $light;
-// }
+.bg-overlay-light {
+    background: rgba($overlay, 0.5); 
+}
+
+.bg-overlay-dark {
+    background: rgba($overlay, 0.9); 
+}

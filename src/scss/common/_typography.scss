@@ -13,6 +13,7 @@ $bold: 700;
 $extrabold: 800;
 $black: 900;
 
+
 // Font - sizes
 $font-size-xs: 0.8rem;
 $font-size-sm: 0.9rem;
@@ -40,3 +41,24 @@ body {
   font-weight: $light;
 }
 
+.font-weight-extra-light {
+    font-weight: $extralight;
+}
+.font-weight-light {
+    font-weight: $light;
+}
+.font-weight-normal {
+    font-weight: $normal;
+}
+.font-weight-semi-bold {
+    font-weight: $semibold;
+}
+.font-weight-bold {
+    font-weight: $bold;
+}
+.font-weight-extra-bold {
+    font-weight: $extrabold;
+}
+.font-weight-black {
+  font-weight: $black;
+}

@@ -1,12 +1,17 @@
-.devices {
+.devices-1 {
   position: relative;
   height: 700px;
+}
+
+.devices-2 {
+    position: relative;
+    height: 600px;
 }
 
 .ipad-wrap {
   position: absolute;
   left: -25%;
-  top: 20%;
+  top: 28.5%;
   background: url('/public/images/iPad Air.png') no-repeat top right;
   width: 706px;
   height: 500px;
@@ -15,10 +20,19 @@
 .iphone-wrap {
     position: absolute;
     left: 50%;
-    top: 34.3%;
+    top: 43%;
     width: 304px;
     height: 400px;
     background: url('/public/images/iPhone 6.png') no-repeat top right;
+}
+
+.macbook-wrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('/public/images/Macbook Pro.png') no-repeat bottom left;
+    width: 700px;
+    height: 600px;
 }
 
 .feature-list {
