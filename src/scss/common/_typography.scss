@@ -62,3 +62,9 @@ body {
 .font-weight-black {
   font-weight: $black;
 }
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,41 @@
+#news {
+  .text-1 {
+    border-right: 1px solid $border;
+    padding: 0 1rem;
+  }
+
+  .text-2 {
+    padding: 0 2rem 1rem;
+  }
+
+  .blog-post {
+    .col-md-4 {
+      margin: 0;
+      padding: 0;
+    }
+
+    img.thumb {
+      width: 100%;
+      height: auto;
+    }
+
+    h6 {
+      font-size: 0.7rem;
+      font-weight: $light;
+      color: $gray;
+    }
+
+    a.more {
+      color: $text;
+
+      &:hover {
+        color: $primary;
+      }
+
+      &::after {
+          content: '>';
+          padding-left: 1rem;
+      }
+    }
+  }
+}
