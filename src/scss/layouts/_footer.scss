@@ -1,0 +1,33 @@
+.footer-menu {
+  display: block;
+  li {
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+    a {
+      text-transform: uppercase;
+      font-size: $font-size-xs;
+    }
+  }
+}
+
+.copyright {
+  font-size: $font-size-xs;
+}
+
+.social {
+  .fa-twitter {
+    padding: 1.2rem;
+    background: #1AB4EF;
+  }
+  .fa-facebook-f {
+    padding: 1.2rem 1.5rem;
+    background: #3B5898;
+  }
+
+  li {
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+  }
+}

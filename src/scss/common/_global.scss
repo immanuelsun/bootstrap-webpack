@@ -1,7 +1,13 @@
 .bg-overlay-light {
-    background: rgba($overlay, 0.5); 
+    background: rgba($overlay, 0.5);
 }
 
 .bg-overlay-dark {
-    background: rgba($overlay, 0.9); 
+    background: rgba($overlay, 0.9);
+}
+
+.up-to-top {
+    width: 30px;
+    height: 30px;
+    padding-top: 0.4rem;
 }
